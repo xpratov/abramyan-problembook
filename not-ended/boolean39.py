@@ -1,1 +1,0 @@
-# farzin bir katakdan ikkinchisiga yura oladimi?
