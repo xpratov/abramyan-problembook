@@ -1,8 +1,10 @@
 filename = input("Fayl nomi: ")
-S = input("S = ")
 
 with open(filename, "r") as f:
-    data = f.read()
+    text = f.read()
+
+while "  " in text:
+    text = text.replace("  ", " ")
 
 with open(filename, "w") as f:
-    f.write(S + data)
+    f.write(text)
